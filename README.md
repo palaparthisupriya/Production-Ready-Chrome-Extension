@@ -2,7 +2,7 @@
 
 A premium, multi-feature Chrome extension built with React and Vite for Manifest V3. Designed to streamline your digital workspace and minimize distractions.
 
-## 🚀 Features
+##  Features
 
 - **Tab Session Management**: Save your entire window of tabs and restore them with one click.
 - **Focus Mode (Website Blocker)**: Manage a domain-based blocklist. Blocked sites display a custom productivity dashboard.
@@ -11,7 +11,7 @@ A premium, multi-feature Chrome extension built with React and Vite for Manifest
 - **Keyboard Shortcuts**: Use `Ctrl+Shift+S` to instantly save your current tab session.
 - **Custom New Tab Page**: Replaces the default new tab with a focus-oriented dashboard showing your recent notes and sessions.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: React 18
 - **Build Tool**: Vite (configured for multi-entry Chrome extension bundling)
@@ -19,7 +19,7 @@ A premium, multi-feature Chrome extension built with React and Vite for Manifest
 - **Persistence**: Chrome Storage API (Local & Sync)
 - **Manifest**: MV3
 
-## 📦 Installation
+##  Installation
 
 1. Clone or download this repository.
 2. Install dependencies:
@@ -36,7 +36,7 @@ A premium, multi-feature Chrome extension built with React and Vite for Manifest
    - Click **Load unpacked**.
    - Select the `dist` folder in the project directory.
 
-## 📖 Usage Guide
+##  Usage Guide
 
 - **Popup**: Click the extension icon to save sessions or take notes.
 - **Options**: Use the gear icon in the popup to manage your website blocklist and export data.
@@ -44,5 +44,5 @@ A premium, multi-feature Chrome extension built with React and Vite for Manifest
 - **Notes**: Highlight text on any website, right-click, and select "Add selection to Notes".
 - **Shortcuts**: `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac) to save current window session.
 
-## 📄 License
+## License
 MIT
