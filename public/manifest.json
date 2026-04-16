@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Suite",
+  "version": "1.0.0",
+  "description": "Tab sessions, website blocking, and notes.",
+  "permissions": ["storage", "tabs", "contextMenus", "commands"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "commands": {
+    "save-session": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Save current tab session"
+    }
+  }
+}
